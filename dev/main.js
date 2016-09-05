@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         'Experience with AngularJS',
         'Symfony/Twig templating',
         'Familiar with version and dependancy control',
-        'and some sound design too'
+        'and I do some sound design too'
     ];
 
     const networks = [
@@ -75,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     listArray = skills;
                     break;
                 case 'social':
+                    listClass = 'list h-list';
                     listArray = networks;
                     break;
             }

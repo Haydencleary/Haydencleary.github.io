@@ -1,3 +1,16 @@
+/**
+Colors:
+
+Dark grey : #292A2B;
+White : #f3f3f3;
+Green : #19f9d8;
+Orange : #FFB86C;
+Red : #FF2C6D;
+Blue : #45A9F9;
+Light blue : #6FC1FF
+
+**/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,17 +39,17 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     position: relative;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 13px;
-	color: #fff;
-	background-color: #000;
+	color: #f3f3f3;
+	background-color: #292A2B;
 	padding: 0 10px 10px;
 	line-height: 1;
 }
 
 .prompt {
-	border-top: 1px dashed #fff;
-	border-bottom: 1px dashed #fff;
+	border-top: 1px dashed #f3f3f3;
+	border-bottom: 1px dashed #f3f3f3;
 	padding: 10px 0;
 }
 
@@ -45,18 +58,18 @@ body {
 }
 
 .history a {
-	color: #00BFFF;
+	color: #45A9F9;
 	text-decoration: none;
 	padding-bottom: 1px;
-	border-bottom: 1px dotted #fff;
+	border-bottom: 1px dotted #f3f3f3;
 }
 
 .history a:hover {
-	color: #87CEEB;
+	color: #6FC1FF;
 }
 
 .history .orange {
-	color: #FF4500;
+	color: #FFB86C;
 }
 
 .logo-wrapper {
@@ -67,7 +80,8 @@ body {
 
 .logo {
 	display: inherit;
-	color: #FF1493;
+	font-family: monospace;
+	color: #FF2C6D;
 	line-height: 15px;
 	text-align: left;
 }
@@ -82,7 +96,7 @@ body {
 }
 
 .h-list span {
-	width: 65px
+	width: 95px
 }
 
 .s-list span {
@@ -105,7 +119,7 @@ body {
 .new-cmd:before {
 	content: '~$';
 	line-height: 18px;
-	color: #00FF00;
+	color: #19f9d8;
     padding-right: 10px;
 }
 
